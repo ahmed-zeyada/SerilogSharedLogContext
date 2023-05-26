@@ -25,7 +25,7 @@ builder.Services.AddScoped<IRepository, Repository>();
 
 var app = builder.Build();
 
-// add shared context middleware before any other midllewares
+// add shared context middleware before any other middlewares
 app.UseSharedLogContext();
 
 app.UseSerilogRequestLogging();
