@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>disable</Nullable>
+    <Copyright>Copyright Zey Software © 2023</Copyright>
+    <Company>Zey Software</Company>
   </PropertyGroup>
 
   <ItemGroup>
